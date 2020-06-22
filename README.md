@@ -1,5 +1,5 @@
 # Healer-reactions
-The project includes healer reactions for the current savage contet, including a trial timeline (e5n), which you can use to get familar with the reactions.
+The project contains healer reactions for the current savage contet, including a trial timeline (e5n), which you can use to get familar with the reactions.
 
 # Requirements
 [TensorReactions](http://wiki.mmominion.com/doku.php?id=tensorreactions)

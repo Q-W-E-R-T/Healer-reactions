@@ -1,4 +1,4 @@
-# Healer-reactions
+# Healer reactions
 The project contains healer reactions for the current savage content, including a trial timeline (e5n), which can be used to get familiar with the reactions. These timeline reactions will be executend by the `general_JOB` reactions.
 Additionally there can be found reactions for general end game dungeons and raids. The `general_JOB_dungeon` reaction works everywhere apart from the optimised savage raids and the trial timeline (e5n).
 
@@ -15,7 +15,7 @@ The next steps require you to open TensorReactions inside the MinionApp menu. Ch
 AST|SallyAST/Stargazer/MCR
 SCH|RikuSCH/SallySCH/Educator/MCR
 
-# Supported Content
+# Supported content
 **_** | **AST** | **SCH**
 ------------ | ------------- | -------------
 e1s | - | - 

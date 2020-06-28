@@ -8,3 +8,9 @@ Additionally there can be found reactions for general end game dungeons and raid
 # Setup
 Download the latest files and open the `TensorReactions` folder. Put reactions that contain a `general` in their name into the `GeneralTriggers` folder. The other files are timeline reactions, which have to be in the `TimelineTriggers` folder.
 The next steps require you to open TensorReactions inside the MinionApp menu. Choose the correct general reaction while you're on the job you want to play. At last pick the timeline of the content you would like to enter.
+
+# Supported ACRs
+**Job** | **Supported ACRs**
+------------ | -------------
+AST|SallyAST/Stargazer/MCR
+SCH|RikuSCH/SallySCH/Educator/MCR

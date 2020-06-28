@@ -14,3 +14,15 @@ The next steps require you to open TensorReactions inside the MinionApp menu. Ch
 ------------ | -------------
 AST|SallyAST/Stargazer/MCR
 SCH|RikuSCH/SallySCH/Educator/MCR
+
+# Supported Content
+**_** | **AST** | **SCH**
+------------ | ------------- | -------------
+e1s | - | - 
+e2s | - | - 
+e3s | - | - 
+e4s | - | - 
+e5s | + | + 
+e6s | + | + 
+e7s | + | + 
+e8s | + | + 

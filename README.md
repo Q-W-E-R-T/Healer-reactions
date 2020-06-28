@@ -9,6 +9,11 @@ Additionally there can be found reactions for general end game dungeons and raid
 Download the latest files and open the `TensorReactions` folder. Put reactions that contain a `general` in their name into the `GeneralTriggers` folder. The other files are timeline reactions, which have to be in the `TimelineTriggers` folder.
 The next steps require you to open TensorReactions inside the MinionApp menu. Choose the correct general reaction while you're on the job you want to play. At last pick the timeline of the content you would like to enter.
 
+# How to use
+For e5n/e5s/e6s/e7s/e8s you need to load the `general_JOB` reaction and the `Healer_RAID` timeline. The `general_JOB_dungeon` is for any other dungeon than the previously mentioned.
+**Examples**:
+At first you would like to do e5s with your Scholar. Load the `General_SCH` reaction and the `Healer_e5s` timeline. Then you decide to do an expert roulette with your Astrologian. Just load the `General_AST_dungeon` and you are good to go.
+
 # Supported ACRs
 **Job** | **Supported ACRs**
 ------------ | -------------
@@ -16,15 +21,15 @@ AST|SallyAST/Stargazer/MCR
 SCH|RikuSCH/SallySCH/Educator/MCR
 
 # Supported content
-**_** | **AST** | **SCH**
------------- | ------------- | -------------
-e1s | - | - 
-e2s | - | - 
-e3s | - | - 
-e4s | - | - 
-e5s | **+** | **+** 
-e6s | **+** | **+** 
-e7s | **+** | **+** 
-e8s | **+** | **+** 
-dungeons | - | **+**
-other raids | - | **+**
+**_** | **AST** | **SCH** | **WHM**
+------------ | ------------- | ------------- | -------------
+e1s | - | - | - 
+e2s | - | - | - 
+e3s | - | - | - 
+e4s | - | - | - 
+e5s | **+** | **+** | - 
+e6s | **+** | **+** | - 
+e7s | **+** | **+** | - 
+e8s | **+** | **+** | - 
+dungeons | **+** | **+** | - 
+other raids | **+** | **+** | - 

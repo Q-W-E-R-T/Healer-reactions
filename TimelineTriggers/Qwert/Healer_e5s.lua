@@ -11,6 +11,7 @@ local obj1 = {
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -266,6 +267,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -375,6 +377,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -529,6 +532,7 @@ return Player.Job ~= 28";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -636,6 +640,7 @@ return Player.Job ~= 28";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -752,6 +757,7 @@ return Player.Job ~= 28";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -789,6 +795,7 @@ return Player.Job ~= 28";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -897,6 +904,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -1218,6 +1226,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1279,6 +1288,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1385,6 +1395,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1444,6 +1455,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1504,6 +1516,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1678,6 +1691,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1738,6 +1752,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1912,6 +1927,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -1975,6 +1991,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 58000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2036,6 +2053,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2142,6 +2160,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2201,6 +2220,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2256,23 +2276,103 @@ self.used = true";
 	[11] = {
 		[1] = {
 			["actions"] = {
-			};
-			["conditions"] = {
-			};
-			["enabled"] = true;
-			["execute"] = "if not Argus then\
-		self.used = true\
-		return\
-end\
-Clouds = {}\
+				[1] = {
+					["aType"] = 4;
+					["actionID"] = -1;
+					["actionLua"] = "Clouds = {}\
 for id, ent in pairs(EntityList(\"\")) do\
-		if ent.contentid == 9282 then\
-				Argus.addTimedCircleFilled(30000, ent.pos.x, ent.pos.y, ent.pos.z, 8, 35, {r = 1, g = 0, b = 0}, 0.1, 0.1, 0, ent.id, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 2)\
+		if not Clouds[id] and ent.contentid == 9282 then\
+				Argus.addTimedCircleFilled(29600, ent.pos.x, ent.pos.y, ent.pos.z, 8, 35, {r = 1, g = 0, b = 0}, 0.1, 0.1, 0, ent.id, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 2)\
+				Clouds[id] = true\
 		end\
 end\
-self.used = table.size(Clouds) >= 4\
+self.used = table.size(Clouds) >= 4";
+					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
+					["castAtMouse"] = false;
+					["castPosX"] = 0;
+					["castPosY"] = 0;
+					["castPosZ"] = 0;
+					["conditions"] = {
+						[1] = 1;
+					};
+					["endIfUsed"] = false;
+					["gVar"] = "";
+					["gVarIndex"] = 1;
+					["gVarValue"] = 1;
+					["ignoreWeaveRules"] = false;
+					["isAreaTarget"] = false;
+					["luaNeedsWeaveWindow"] = false;
+					["luaReturnsAction"] = false;
+					["name"] = "drawing";
+					["potType"] = 1;
+					["setTarget"] = false;
+					["showPositionPreview"] = false;
+					["stopCasting"] = false;
+					["stopMoving"] = false;
+					["targetContentID"] = -1;
+					["targetName"] = "";
+					["targetSubType"] = 1;
+					["targetType"] = 1;
+					["untarget"] = false;
+					["useForWeaving"] = false;
+					["usePot"] = false;
+					["used"] = false;
+					["variableTogglesType"] = 1;
+				};
+			};
+			["conditions"] = {
+				[1] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 4;
+					["comparator"] = 1;
+					["conditionLua"] = "return Argus ~= nil";
+					["conditionType"] = 1;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = -1;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "Argus";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+					["targetName"] = "";
+				};
+			};
+			["enabled"] = true;
+			["execute"] = "\
 ";
-			["executeType"] = 2;
+			["executeType"] = 1;
 			["lastUse"] = 0;
 			["loop"] = false;
 			["luaNeedsWeaveWindow"] = false;
@@ -2286,7 +2386,7 @@ self.used = table.size(Clouds) >= 4\
 			["timerOffset"] = 0;
 			["timerStartOffset"] = -5;
 			["used"] = false;
-			["uuid"] = "9e753ff5-7198-0cf9-878a-3db03f8d5bd6";
+			["uuid"] = "4121777f-14ba-6b91-8117-1a8f8f0bdd21";
 		};
 	};
 	[13] = {
@@ -2299,6 +2399,7 @@ self.used = table.size(Clouds) >= 4\
 					["actionID"] = 7559;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2360,6 +2461,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 29000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2421,6 +2523,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2527,6 +2630,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2586,6 +2690,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2655,6 +2760,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 58000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2716,6 +2822,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2822,6 +2929,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2881,6 +2989,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -2943,6 +3052,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 110.0299987793;
 					["castPosY"] = 0;
@@ -2980,6 +3090,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 110.03,y = 0.00,z = 100.10}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -3093,6 +3204,7 @@ return Player.Job == 33";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -3267,6 +3379,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -3328,6 +3441,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -3388,6 +3502,7 @@ self.used = true";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -3640,6 +3755,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -3961,6 +4077,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4022,6 +4139,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4128,6 +4246,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4187,6 +4306,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4252,6 +4372,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 67000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4311,6 +4432,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4370,6 +4492,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4431,6 +4554,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4541,6 +4665,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 67000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4604,6 +4729,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4664,6 +4790,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -4701,6 +4828,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4811,6 +4939,7 @@ return Player.Job == 33";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -4985,6 +5114,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5046,6 +5176,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5108,6 +5239,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5282,6 +5414,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5343,6 +5476,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5403,6 +5537,7 @@ self.used = true";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -5655,6 +5790,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -5976,6 +6112,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6037,6 +6174,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6143,6 +6281,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6202,6 +6341,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6264,6 +6404,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -6301,6 +6442,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6414,6 +6556,7 @@ data.PartyHPPercentage = 100\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6475,6 +6618,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.LightSpeed.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6513,6 +6657,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.Divination.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6552,6 +6697,7 @@ self.used = true";
 ACR_StarGazerSB_LS = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6768,6 +6914,7 @@ return Player.Job == 33";
 					["actionLua"] = "SallySCH.SkillSettings.ChainStratagem.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6806,6 +6953,7 @@ self.used = true";
 					["actionLua"] = "ACR_EducatorSB_ChainS = false -- Chain Strat\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -6844,6 +6992,7 @@ self.used = true";
 					["actionLua"] = "ACR_RikuSCH_ChainStratagem = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7124,6 +7273,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7231,6 +7381,7 @@ self.used = true";
 					["actionID"] = -1;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7337,6 +7488,7 @@ return false";
 					["actionLua"] = "SallyAST.SkillSettings.LightSpeed.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7375,6 +7527,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.Divination.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7414,6 +7567,7 @@ self.used = true";
 ACR_StarGazerSB_LS = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7630,6 +7784,7 @@ return Player.Job == 33";
 					["actionLua"] = "SallySCH.SkillSettings.ChainStratagem.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7668,6 +7823,7 @@ self.used = true";
 					["actionLua"] = "ACR_EducatorSB_ChainS = true -- Chain Strat\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7706,6 +7862,7 @@ self.used = true";
 					["actionLua"] = "ACR_RikuSCH_ChainStratagem = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -7986,6 +8143,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8047,6 +8205,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8158,6 +8317,7 @@ self.used = true";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8410,6 +8570,7 @@ return Player.Job == 33";
 					["actionID"] = 16559;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8448,6 +8609,7 @@ return Player.Job == 33";
 					["actionID"] = 3601;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8791,6 +8953,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8850,6 +9013,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8909,6 +9073,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -8960,6 +9125,228 @@ self.used = true";
 			["used"] = false;
 			["uuid"] = "8f4a8f90-075d-1e44-9bae-a07d63ae5e8e";
 		};
+		[6] = {
+			["actions"] = {
+				[1] = {
+					["aType"] = 4;
+					["actionID"] = -1;
+					["actionLua"] = "local party = TensorCore.getEntityGroupList(\"Party\")\
+local chainbuffs = {}\
+\
+for _, ent in pairs(party) do\
+    if TensorCore.hasBuff(ent, 2233) then\
+        chainbuffs[#chainbuffs+1] = ent\
+    end\
+end\
+\
+for _, chain in pairs(chainbuffs) do\
+    local closest\
+    local closestDist = 9999\
+    \
+    for _, ent in pairs(party) do\
+        if ent.id ~= chain.id then\
+            local dist = TensorCore.getDistance2d(ent.pos, chain.pos)\
+            if dist < closestDist then\
+                closest = ent\
+                closestDist = dist\
+            end\
+        end\
+    end\
+    \
+    if closest ~= nil then\
+        Argus.addCircleFilled(\
+            closest.pos.x,\
+            closest.pos.y,\
+            closest.pos.z,\
+            2,\
+            30,\
+            GUI:ColorConvertFloat4ToU32(1, 0, 0, 0.2),\
+            GUI:ColorConvertFloat4ToU32(1, 0, 0, 1),\
+            1.5\
+        )\
+    end\
+end";
+					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
+					["castAtMouse"] = false;
+					["castPosX"] = 0;
+					["castPosY"] = 0;
+					["castPosZ"] = 0;
+					["conditions"] = {
+						[1] = 2;
+						[2] = 1;
+					};
+					["endIfUsed"] = false;
+					["gVar"] = "";
+					["gVarIndex"] = 1;
+					["gVarValue"] = 1;
+					["ignoreWeaveRules"] = false;
+					["isAreaTarget"] = false;
+					["luaNeedsWeaveWindow"] = false;
+					["luaReturnsAction"] = false;
+					["name"] = "";
+					["potType"] = 1;
+					["setTarget"] = false;
+					["showPositionPreview"] = false;
+					["stopCasting"] = false;
+					["stopMoving"] = false;
+					["targetContentID"] = -1;
+					["targetName"] = "";
+					["targetSubType"] = 1;
+					["targetType"] = 1;
+					["untarget"] = false;
+					["useForWeaving"] = false;
+					["usePot"] = false;
+					["used"] = false;
+					["variableTogglesType"] = 1;
+				};
+			};
+			["conditions"] = {
+				[1] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 2;
+					["comparator"] = 1;
+					["conditionLua"] = "";
+					["conditionType"] = 8;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["eventArgOptionType"] = 1;
+					["eventArgType"] = 1;
+					["eventBuffDuration"] = 0;
+					["eventBuffID"] = -1;
+					["eventChatLine"] = "";
+					["eventEntityContentID"] = -1;
+					["eventEntityID"] = -1;
+					["eventEntityName"] = "";
+					["eventMarkerID"] = -1;
+					["eventOwnerContentID"] = -1;
+					["eventOwnerID"] = -1;
+					["eventOwnerName"] = "";
+					["eventSpellID"] = -1;
+					["eventSpellName"] = -1;
+					["eventTargetContentID"] = -1;
+					["eventTargetID"] = -1;
+					["eventTargetName"] = "";
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = 906;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+				};
+				[2] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 4;
+					["comparator"] = 1;
+					["conditionLua"] = "return Argus ~= nil";
+					["conditionType"] = 1;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["eventArgOptionType"] = 1;
+					["eventArgType"] = 1;
+					["eventBuffDuration"] = 0;
+					["eventBuffID"] = -1;
+					["eventChatLine"] = "";
+					["eventEntityContentID"] = -1;
+					["eventEntityID"] = -1;
+					["eventEntityName"] = "";
+					["eventMarkerID"] = -1;
+					["eventOwnerContentID"] = -1;
+					["eventOwnerID"] = -1;
+					["eventOwnerName"] = "";
+					["eventSpellID"] = -1;
+					["eventSpellName"] = -1;
+					["eventTargetContentID"] = -1;
+					["eventTargetID"] = -1;
+					["eventTargetName"] = "";
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = -1;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "has argus";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+				};
+			};
+			["enabled"] = true;
+			["eventType"] = 12;
+			["execute"] = "";
+			["executeType"] = 1;
+			["lastUse"] = 0;
+			["loop"] = false;
+			["luaNeedsWeaveWindow"] = false;
+			["luaReturnsAction"] = false;
+			["name"] = "chain lightning";
+			["throttleTime"] = 0;
+			["time"] = 297.8;
+			["timeRange"] = true;
+			["timelineIndex"] = 45;
+			["timeout"] = 5;
+			["timerEndOffset"] = 31;
+			["timerOffset"] = 0;
+			["timerStartOffset"] = 0;
+			["used"] = false;
+			["uuid"] = "0d8e4feb-c8e2-bf42-ae34-68e37da10a4d";
+		};
 	};
 	[47] = {
 		[1] = {
@@ -8969,6 +9356,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9143,6 +9531,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9204,6 +9593,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9268,6 +9658,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -9305,6 +9696,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9413,6 +9805,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -9732,6 +10125,7 @@ return math.distance2d(target.pos.x,target.pos.z,spot.x,spot.z) <= 8";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9791,6 +10185,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9854,6 +10249,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -9964,6 +10360,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 67000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10023,6 +10420,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10082,6 +10480,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10143,6 +10542,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10250,6 +10650,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10424,6 +10825,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10485,6 +10887,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10548,6 +10951,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 67000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10611,6 +11015,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10673,6 +11078,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10844,6 +11250,7 @@ return Player.Job == 28";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -10881,6 +11288,7 @@ return Player.Job == 28";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -10992,6 +11400,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11053,6 +11462,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11113,6 +11523,7 @@ self.used = true";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11365,6 +11776,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -11686,6 +12098,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11747,6 +12160,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11853,6 +12267,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11912,6 +12327,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -11979,6 +12395,7 @@ data.PartyHPPercentage = 100\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12040,6 +12457,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.LightSpeed.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12078,6 +12496,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.Divination.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12117,6 +12536,7 @@ self.used = true";
 ACR_StarGazerSB_LS = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12333,6 +12753,7 @@ return Player.Job == 33";
 					["actionLua"] = "SallySCH.SkillSettings.ChainStratagem.enabled = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12371,6 +12792,7 @@ self.used = true";
 					["actionLua"] = "ACR_EducatorSB_ChainS = false -- Chain Strat\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12409,6 +12831,7 @@ self.used = true";
 					["actionLua"] = "ACR_RikuSCH_ChainStratagem = false\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12689,6 +13112,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12796,6 +13220,7 @@ self.used = true";
 					["actionID"] = -1;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12902,6 +13327,7 @@ return false";
 					["actionLua"] = "SallyAST.SkillSettings.LightSpeed.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12940,6 +13366,7 @@ self.used = true";
 					["actionLua"] = "SallyAST.SkillSettings.Divination.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -12979,6 +13406,7 @@ self.used = true";
 ACR_StarGazerSB_LS = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13195,6 +13623,7 @@ return Player.Job == 33";
 					["actionLua"] = "SallySCH.SkillSettings.ChainStratagem.enabled = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13233,6 +13662,7 @@ self.used = true";
 					["actionLua"] = "ACR_EducatorSB_ChainS = true -- Chain Strat\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13271,6 +13701,7 @@ self.used = true";
 					["actionLua"] = "ACR_RikuSCH_ChainStratagem = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13551,6 +13982,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13612,6 +14044,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13723,6 +14156,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13760,6 +14194,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = Player.pos.x,y = Player.pos.y,z = Player.pos.z}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -13870,6 +14305,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -14191,6 +14627,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14252,6 +14689,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14358,6 +14796,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14417,6 +14856,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14480,6 +14920,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 58000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14541,6 +14982,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14647,6 +15089,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14706,6 +15149,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14761,23 +15205,103 @@ self.used = true";
 	[78] = {
 		[1] = {
 			["actions"] = {
-			};
-			["conditions"] = {
-			};
-			["enabled"] = true;
-			["execute"] = "if not Argus then\
-		self.used = true\
-		return\
-end\
-Clouds = {}\
+				[1] = {
+					["aType"] = 4;
+					["actionID"] = -1;
+					["actionLua"] = "Clouds = {}\
 for id, ent in pairs(EntityList(\"\")) do\
-		if ent.contentid == 9282 then\
-				Argus.addTimedCircleFilled(30000, ent.pos.x, ent.pos.y, ent.pos.z, 8, 35, {r = 1, g = 0, b = 0}, 0.1, 0.1, 0, ent.id, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 2)\
+		if not Clouds[id] and ent.contentid == 9282 then\
+				Argus.addTimedCircleFilled(29600, ent.pos.x, ent.pos.y, ent.pos.z, 8, 35, {r = 1, g = 0, b = 0}, 0.1, 0.1, 0, ent.id, GUI:ColorConvertFloat4ToU32(1, 0, 0, 1), 2)\
+				Clouds[id] = true\
 		end\
 end\
-self.used = table.size(Clouds) >= 4\
+self.used = table.size(Clouds) >= 4";
+					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
+					["castAtMouse"] = false;
+					["castPosX"] = 0;
+					["castPosY"] = 0;
+					["castPosZ"] = 0;
+					["conditions"] = {
+						[1] = 1;
+					};
+					["endIfUsed"] = false;
+					["gVar"] = "";
+					["gVarIndex"] = 1;
+					["gVarValue"] = 1;
+					["ignoreWeaveRules"] = false;
+					["isAreaTarget"] = false;
+					["luaNeedsWeaveWindow"] = false;
+					["luaReturnsAction"] = false;
+					["name"] = "drawing";
+					["potType"] = 1;
+					["setTarget"] = false;
+					["showPositionPreview"] = false;
+					["stopCasting"] = false;
+					["stopMoving"] = false;
+					["targetContentID"] = -1;
+					["targetName"] = "";
+					["targetSubType"] = 1;
+					["targetType"] = 1;
+					["untarget"] = false;
+					["useForWeaving"] = false;
+					["usePot"] = false;
+					["used"] = false;
+					["variableTogglesType"] = 1;
+				};
+			};
+			["conditions"] = {
+				[1] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 4;
+					["comparator"] = 1;
+					["conditionLua"] = "return Argus ~= nil";
+					["conditionType"] = 1;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = -1;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "Argus";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+					["targetName"] = "";
+				};
+			};
+			["enabled"] = true;
+			["execute"] = "\
 ";
-			["executeType"] = 2;
+			["executeType"] = 1;
 			["lastUse"] = 0;
 			["loop"] = false;
 			["luaNeedsWeaveWindow"] = false;
@@ -14791,7 +15315,7 @@ self.used = table.size(Clouds) >= 4\
 			["timerOffset"] = 0;
 			["timerStartOffset"] = -5;
 			["used"] = false;
-			["uuid"] = "73dff535-a5dd-b4f3-9427-8484552918d7";
+			["uuid"] = "77eb8728-3ada-b937-a537-d18d85cd8f1f";
 		};
 	};
 	[81] = {
@@ -14802,6 +15326,7 @@ self.used = table.size(Clouds) >= 4\
 					["actionID"] = 7559;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14863,6 +15388,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 29000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -14924,6 +15450,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15030,6 +15557,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15089,6 +15617,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15149,6 +15678,7 @@ self.used = true";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -15470,6 +16000,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15531,6 +16062,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15637,6 +16169,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15696,6 +16229,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15756,6 +16290,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -15793,6 +16328,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -15901,6 +16437,7 @@ return Player.Job == 33";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16156,6 +16693,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16215,6 +16753,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16274,6 +16813,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16325,6 +16865,228 @@ self.used = true";
 			["used"] = false;
 			["uuid"] = "b2925eaa-ff38-464d-aee9-e021c42aa47a";
 		};
+		[6] = {
+			["actions"] = {
+				[1] = {
+					["aType"] = 4;
+					["actionID"] = -1;
+					["actionLua"] = "local party = TensorCore.getEntityGroupList(\"Party\")\
+local chainbuffs = {}\
+\
+for _, ent in pairs(party) do\
+    if TensorCore.hasBuff(ent, 2233) then\
+        chainbuffs[#chainbuffs+1] = ent\
+    end\
+end\
+\
+for _, chain in pairs(chainbuffs) do\
+    local closest\
+    local closestDist = 9999\
+    \
+    for _, ent in pairs(party) do\
+        if ent.id ~= chain.id then\
+            local dist = TensorCore.getDistance2d(ent.pos, chain.pos)\
+            if dist < closestDist then\
+                closest = ent\
+                closestDist = dist\
+            end\
+        end\
+    end\
+    \
+    if closest ~= nil then\
+        Argus.addCircleFilled(\
+            closest.pos.x,\
+            closest.pos.y,\
+            closest.pos.z,\
+            2,\
+            30,\
+            GUI:ColorConvertFloat4ToU32(1, 0, 0, 0.2),\
+            GUI:ColorConvertFloat4ToU32(1, 0, 0, 1),\
+            1.5\
+        )\
+    end\
+end";
+					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
+					["castAtMouse"] = false;
+					["castPosX"] = 0;
+					["castPosY"] = 0;
+					["castPosZ"] = 0;
+					["conditions"] = {
+						[1] = 2;
+						[2] = 1;
+					};
+					["endIfUsed"] = false;
+					["gVar"] = "";
+					["gVarIndex"] = 1;
+					["gVarValue"] = 1;
+					["ignoreWeaveRules"] = false;
+					["isAreaTarget"] = false;
+					["luaNeedsWeaveWindow"] = false;
+					["luaReturnsAction"] = false;
+					["name"] = "";
+					["potType"] = 1;
+					["setTarget"] = false;
+					["showPositionPreview"] = false;
+					["stopCasting"] = false;
+					["stopMoving"] = false;
+					["targetContentID"] = -1;
+					["targetName"] = "";
+					["targetSubType"] = 1;
+					["targetType"] = 1;
+					["untarget"] = false;
+					["useForWeaving"] = false;
+					["usePot"] = false;
+					["used"] = false;
+					["variableTogglesType"] = 1;
+				};
+			};
+			["conditions"] = {
+				[1] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 2;
+					["comparator"] = 1;
+					["conditionLua"] = "";
+					["conditionType"] = 8;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["eventArgOptionType"] = 1;
+					["eventArgType"] = 1;
+					["eventBuffDuration"] = 0;
+					["eventBuffID"] = -1;
+					["eventChatLine"] = "";
+					["eventEntityContentID"] = -1;
+					["eventEntityID"] = -1;
+					["eventEntityName"] = "";
+					["eventMarkerID"] = -1;
+					["eventOwnerContentID"] = -1;
+					["eventOwnerID"] = -1;
+					["eventOwnerName"] = "";
+					["eventSpellID"] = -1;
+					["eventSpellName"] = -1;
+					["eventTargetContentID"] = -1;
+					["eventTargetID"] = -1;
+					["eventTargetName"] = "";
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = 906;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+				};
+				[2] = {
+					["actionCDValue"] = 0;
+					["actionID"] = -1;
+					["buffCheckType"] = 1;
+					["buffDuration"] = 0;
+					["buffID"] = -1;
+					["buffIDList"] = {
+					};
+					["category"] = 4;
+					["comparator"] = 1;
+					["conditionLua"] = "return Argus ~= nil";
+					["conditionType"] = 1;
+					["conditions"] = {
+					};
+					["contentid"] = -1;
+					["dequeueIfLuaFalse"] = false;
+					["enmityValue"] = 0;
+					["eventArgOptionType"] = 1;
+					["eventArgType"] = 1;
+					["eventBuffDuration"] = 0;
+					["eventBuffID"] = -1;
+					["eventChatLine"] = "";
+					["eventEntityContentID"] = -1;
+					["eventEntityID"] = -1;
+					["eventEntityName"] = "";
+					["eventMarkerID"] = -1;
+					["eventOwnerContentID"] = -1;
+					["eventOwnerID"] = -1;
+					["eventOwnerName"] = "";
+					["eventSpellID"] = -1;
+					["eventSpellName"] = -1;
+					["eventTargetContentID"] = -1;
+					["eventTargetID"] = -1;
+					["eventTargetName"] = "";
+					["gaugeIndex"] = 1;
+					["gaugeValue"] = 0;
+					["hpType"] = 1;
+					["hpValue"] = 0;
+					["inCombatType"] = 1;
+					["inRangeValue"] = 0;
+					["lastSkillID"] = -1;
+					["localmapid"] = -1;
+					["matchAnyBuff"] = false;
+					["mpType"] = 1;
+					["mpValue"] = 0;
+					["name"] = "has argus";
+					["partyHpType"] = 1;
+					["partyHpValue"] = 0;
+					["partyMpType"] = 1;
+					["partyMpValue"] = 0;
+					["partyTargetContentID"] = -1;
+					["partyTargetName"] = "";
+					["partyTargetNumber"] = 1;
+					["partyTargetSubType"] = 1;
+					["partyTargetType"] = 1;
+					["rangeCheckSourceSubType"] = 1;
+					["rangeCheckSourceType"] = 1;
+					["rangeSourceContentID"] = -1;
+					["rangeSourceName"] = "";
+					["setEventTargetSubtype"] = 1;
+					["setFirstMatch"] = false;
+				};
+			};
+			["enabled"] = true;
+			["eventType"] = 12;
+			["execute"] = "";
+			["executeType"] = 1;
+			["lastUse"] = 0;
+			["loop"] = false;
+			["luaNeedsWeaveWindow"] = false;
+			["luaReturnsAction"] = false;
+			["name"] = "chain lightning";
+			["throttleTime"] = 0;
+			["time"] = 502.6;
+			["timeRange"] = true;
+			["timelineIndex"] = 83;
+			["timeout"] = 5;
+			["timerEndOffset"] = 31;
+			["timerOffset"] = 0;
+			["timerStartOffset"] = 0;
+			["used"] = false;
+			["uuid"] = "0767d6c1-e91e-b9bd-9f8b-f586ec5aa1f7";
+		};
 	};
 	[85] = {
 		[1] = {
@@ -16334,6 +17096,7 @@ self.used = true";
 					["actionID"] = 7437;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16508,6 +17271,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = 90000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16569,6 +17333,7 @@ data.TankHPPercentage = nil\
 data.TankHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -16629,6 +17394,7 @@ self.used = true";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -16948,6 +17714,7 @@ return math.distance2d(target.pos.x,target.pos.z,spot.x,spot.z) <= 8";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17007,6 +17774,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17070,6 +17838,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17177,6 +17946,7 @@ self.used = true";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -17498,6 +18268,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17559,6 +18330,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17665,6 +18437,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17724,6 +18497,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17784,6 +18558,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -17821,6 +18596,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -17929,6 +18705,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -18250,6 +19027,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -18311,6 +19089,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -18417,6 +19196,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -18476,6 +19256,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -18536,6 +19317,7 @@ self.used = true";
 					["actionID"] = 3613;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -18788,6 +19570,7 @@ return Player.Job == 33";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -19109,6 +19892,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = 75000\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -19168,6 +19952,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -19227,6 +20012,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -19287,6 +20073,7 @@ self.used = true";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -19606,6 +20393,7 @@ return math.distance2d(target.pos.x,target.pos.z,spot.x,spot.z) <= 8";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -19665,6 +20453,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -19725,6 +20514,7 @@ self.used = true";
 					["actionID"] = 188;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 100.11000061035;
 					["castPosY"] = 0;
@@ -20044,6 +20834,7 @@ return math.distance2d(target.pos.x,target.pos.z,spot.x,spot.z) <= 8";
 					["actionLua"] = "data.PartyDmgSoon = true\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -20103,6 +20894,7 @@ self.used = true";
 					["actionLua"] = "data.PartyDmgSoon = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -20163,6 +20955,7 @@ self.used = true";
 					["actionID"] = 7439;
 					["actionLua"] = "";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -20200,6 +20993,7 @@ self.used = true";
 					["actionLua"] = "data.OurESlocation = {x = 100.11,y = 0.00,z = 99.95}\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;
@@ -20313,6 +21107,7 @@ data.PartyHPPercentage = nil\
 data.PartyHPCurrent = nil\
 self.used = true";
 					["allowInterrupt"] = false;
+					["atomicPriority"] = false;
 					["castAtMouse"] = false;
 					["castPosX"] = 0;
 					["castPosY"] = 0;

@@ -25,7 +25,7 @@ local obj1 = {
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "ce623dd2-8afb-0009-bfed-81d10b8df20a";
+		["uuid"] = "40d79508-7dfa-457c-a2b9-4450dc67c796";
 	};
 	[2] = {
 		["actions"] = {
@@ -305,7 +305,7 @@ self.used = true";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "8a7d2369-9c80-04d8-bc15-2265536ef676";
+		["uuid"] = "378bd9ae-9041-4ba9-8a20-5ae4d2e3625b";
 	};
 	[3] = {
 		["actions"] = {
@@ -447,7 +447,7 @@ self.used = true";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "d6143040-8d49-e805-b799-c6b68c9e5f5e";
+		["uuid"] = "60c74126-321d-da24-9d20-d29deb79b705";
 	};
 	[4] = {
 		["actions"] = {
@@ -775,7 +775,7 @@ return target ~= nil and TensorCore.isTank(target) == true";
 				};
 				["category"] = 4;
 				["comparator"] = 2;
-				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) == 4";
+				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) <= 4";
 				["conditionType"] = 2;
 				["conditions"] = {
 				};
@@ -845,7 +845,7 @@ return target ~= nil and TensorCore.isTank(target) == true";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "fe979db3-8e28-b0f9-a2df-b21cd3db49b0";
+		["uuid"] = "2602ce6a-903c-f793-af1c-acc374db06ee";
 	};
 	[5] = {
 		["actions"] = {
@@ -869,7 +869,7 @@ return target ~= nil and TensorCore.isTank(target) == true";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "751da80e-9b14-3454-90bd-0009c357f466";
+		["uuid"] = "7941cd6a-0d48-3c7a-a6b7-2f49a440e530";
 	};
 	[6] = {
 		["actions"] = {
@@ -1327,7 +1327,9 @@ return false";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return InInstance() == true";
+				["conditionLua"] = "--return InInstance() == true\
+\
+return true";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -1522,7 +1524,7 @@ return false";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = -4;
 		["used"] = false;
-		["uuid"] = "9bfad9c0-4bc3-7223-b555-fffaed2f1236";
+		["uuid"] = "612d649e-aaf5-c333-be2e-7efa6708addf";
 	};
 	[7] = {
 		["actions"] = {
@@ -1932,7 +1934,9 @@ return false";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return InInstance() == true";
+				["conditionLua"] = "--return InInstance() == true\
+\
+return true";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -2052,6 +2056,7 @@ return false";
 		["execute"] = "";
 		["executeType"] = 1;
 		["lastUse"] = 0;
+		["luaNeedsWeaveWindow"] = false;
 		["luaReturnsAction"] = false;
 		["name"] = "AH - NS";
 		["throttleTime"] = 2000;
@@ -2063,7 +2068,7 @@ return false";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "fa59f5f3-9b5b-90ab-83cb-3c8b19c30731";
+		["uuid"] = "9f26cedf-afd8-91ca-9461-e2c78ffa12fa";
 	};
 	[8] = {
 		["actions"] = {
@@ -3537,7 +3542,9 @@ end";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return InInstance() == true";
+				["conditionLua"] = "--return InInstance() == true\
+\
+return true";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -3661,7 +3668,7 @@ end";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) == 4";
+				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) <= 4";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -4668,7 +4675,7 @@ return el ~= nil and TableSize(el) >= 3";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "02d224aa-f4e7-7c64-8b4f-6106bd5ffeab";
+		["uuid"] = "b6334367-fe55-0a5e-9b06-021f9c0304a2";
 	};
 	[9] = {
 		["actions"] = {
@@ -6671,7 +6678,7 @@ return el ~= nil and TableSize(el) >= 3";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) == 4";
+				["conditionLua"] = "return table.size(TensorCore.getEntityGroupList(\"Party\")) <= 4";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -7232,7 +7239,9 @@ return not TensorCore.isTank(target)";
 				};
 				["category"] = 4;
 				["comparator"] = 1;
-				["conditionLua"] = "return InInstance() == true";
+				["conditionLua"] = "--return InInstance() == true\
+\
+return true";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -8240,7 +8249,7 @@ return not TensorCore.isTank(target)";
 		["timerOffset"] = 0;
 		["timerStartOffset"] = 0;
 		["used"] = false;
-		["uuid"] = "5a21c9e7-2c86-f491-b09e-062857846595";
+		["uuid"] = "5240659e-0a6b-938f-9da6-fd7b1629468c";
 	};
 }
 return obj1

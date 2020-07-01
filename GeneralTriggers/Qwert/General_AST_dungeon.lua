@@ -926,7 +926,7 @@ return target ~= nil and TensorCore.isTank(target) == true",
 				["buffID"] = -1,
 				["buffIDList"] = {
 				},
-				["category"] = 4,
+				["category"] = 3,
 				["comparator"] = 2,
 				["conditionLua"] = "local target = EntityList:Get(eventArgs.detectionTargetID)\
 \
@@ -989,7 +989,7 @@ return false",
 				["mpValue"] = 0,
 				["name"] = "HP < Value",
 				["partyHpType"] = 1,
-				["partyHpValue"] = 85,
+				["partyHpValue"] = 75,
 				["partyMpType"] = 1,
 				["partyMpValue"] = 0,
 				["partyTargetContentID"] = -1,

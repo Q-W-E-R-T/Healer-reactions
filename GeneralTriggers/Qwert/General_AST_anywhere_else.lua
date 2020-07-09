@@ -10692,7 +10692,7 @@ return true";
 				["setFirstMatch"] = false;
 			};
 		};
-		["enabled"] = false;
+		["enabled"] = true;
 		["eventType"] = 1;
 		["execute"] = "";
 		["executeType"] = 1;

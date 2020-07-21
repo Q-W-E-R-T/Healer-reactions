@@ -2529,7 +2529,7 @@ return false";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -4016,7 +4016,7 @@ return table.valid(objectiv) == true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -4772,7 +4772,7 @@ return table.valid(objectiv) == true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -5188,7 +5188,7 @@ end";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -5741,7 +5741,7 @@ return table.valid(objectiv) == true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -7491,7 +7491,7 @@ end";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -10210,7 +10210,7 @@ return false";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -14503,7 +14503,7 @@ return true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";

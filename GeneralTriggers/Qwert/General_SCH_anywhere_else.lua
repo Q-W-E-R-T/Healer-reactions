@@ -3354,7 +3354,7 @@ self.used = true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -5142,7 +5142,7 @@ return table.valid(objectiv) == true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -6172,7 +6172,7 @@ return table.valid(objectiv) == true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -7201,7 +7201,7 @@ return true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -8514,7 +8514,7 @@ return true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -8733,7 +8733,7 @@ return el ~= nil and TableSize(el) < 4";
 				["aType"] = 1;
 				["actionID"] = 186;
 				["actionLua"] = "";
-				["allowInterrupt"] = false;
+				["allowInterrupt"] = true;
 				["atomicPriority"] = false;
 				["castAtMouse"] = false;
 				["castPosX"] = 0;
@@ -8780,7 +8780,7 @@ return el ~= nil and TableSize(el) < 4";
 				["aType"] = 1;
 				["actionID"] = 186;
 				["actionLua"] = "";
-				["allowInterrupt"] = false;
+				["allowInterrupt"] = true;
 				["atomicPriority"] = false;
 				["castAtMouse"] = false;
 				["castPosX"] = 0;
@@ -9657,7 +9657,7 @@ return TensorCore.Avoidance.inUnavoidableAOE(Argus.getCurrentAOEs(), target)";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -11859,7 +11859,7 @@ return true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -13965,7 +13965,19 @@ return true";
 				["clusterRadius"] = 8;
 				["clusterRange"] = 30;
 				["comparator"] = 1;
-				["conditionLua"] = "return Player.localmapid ~= 902 and Player.localmapid ~= 906 and Player.localmapid ~= 907 and Player.localmapid ~= 908 and Player.localmapid ~= 909";
+				["conditionLua"] = "local SavageMap = {\
+    [902] = true, --e5n\
+    [906] = true, --e5s\
+    [907] = true, --e6s\
+    [908] = true, --e7s\
+    [909] = true  --e8s\
+}\
+\
+if SavageMap[Player.localmapid] then\
+    return true\
+else\
+    return true\
+end";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -15535,7 +15547,7 @@ return false";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";
@@ -17917,7 +17929,7 @@ return true";
 }\
 \
 if SavageMap[Player.localmapid] then\
-    return false\
+    return true\
 else\
     return true\
 end";

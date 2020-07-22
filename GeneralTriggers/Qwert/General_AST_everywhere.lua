@@ -1128,7 +1128,7 @@ return el ~= nil and TableSize(el) < 4";
 				["clusterRadius"] = 8;
 				["clusterRange"] = 30;
 				["comparator"] = 1;
-				["conditionLua"] = "return not data.TankHeal";
+				["conditionLua"] = "return data.TankHeal == false";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};
@@ -1195,7 +1195,7 @@ return el ~= nil and TableSize(el) < 4";
 				["clusterRadius"] = 8;
 				["clusterRange"] = 30;
 				["comparator"] = 1;
-				["conditionLua"] = "return data.TankHeal";
+				["conditionLua"] = "return data.TankHeal == true";
 				["conditionType"] = 1;
 				["conditions"] = {
 				};

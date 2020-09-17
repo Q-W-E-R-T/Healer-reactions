@@ -205,7 +205,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -221,7 +220,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -231,7 +230,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -259,9 +258,9 @@ local tbl =
 			timelineIndex = 2,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "d45a4bd9-13de-bf0b-83bf-5c947d6a782e",
+			uuid = "339a4133-f9aa-53d5-b77c-76b23b6f9ede",
 		},
 		
 		{
@@ -1881,7 +1880,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -1897,7 +1895,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -1907,7 +1905,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -1935,9 +1933,9 @@ local tbl =
 			timelineIndex = 23,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "285d10fe-a59b-5919-a92e-64d5e666a0f7",
+			uuid = "c88853b2-96d9-ea6f-a49a-d38165a7fd15",
 		},
 	},
 	[25] = 
@@ -3455,7 +3453,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -3471,7 +3468,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -3481,7 +3478,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -3509,9 +3506,9 @@ local tbl =
 			timelineIndex = 27,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "672245cf-0348-99ed-a216-893165cf20b0",
+			uuid = "b3b79d04-1e33-c58f-b305-cf01bb9e8dd0",
 		},
 		
 		{
@@ -3708,8 +3705,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 4,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -3906,7 +3903,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "f9517fdd-ff45-3b4c-a388-fd501b93ded2",
+			uuid = "1756309c-1834-4dff-aba9-f57b49a74096",
 		},
 		
 		{
@@ -3923,8 +3920,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 4,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -4042,7 +4039,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "d7f2dec6-b524-1f21-b253-c1f922ebd28f",
+			uuid = "b3c6029b-c9ce-4792-9bf7-aa4f766e6e56",
 		},
 		
 		{
@@ -12922,7 +12919,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -12938,7 +12934,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -12948,7 +12944,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -12976,9 +12972,9 @@ local tbl =
 			timelineIndex = 53,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "4b5bbb1b-2bb7-0f8a-a1fc-fbc622980c67",
+			uuid = "55a9f37f-ec92-793b-8093-709366310842",
 		},
 		
 		{
@@ -16559,7 +16555,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -16575,7 +16570,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -16585,7 +16580,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -16613,9 +16608,9 @@ local tbl =
 			timelineIndex = 57,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "b529a439-0fc6-2fa7-b2a8-864e9b06bc65",
+			uuid = "e64bf6ae-2da1-b1aa-8733-656d9d0ac855",
 		},
 		
 		{
@@ -25515,7 +25510,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -25531,7 +25525,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -25541,7 +25535,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -25569,9 +25563,9 @@ local tbl =
 			timelineIndex = 63,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "9f908e48-fc8b-86bc-9e24-164b2efaec54",
+			uuid = "32eb363e-fcd1-1be2-9e2e-8b4594925ef9",
 		},
 		
 		{
@@ -29562,7 +29556,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -29578,7 +29571,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -29588,7 +29581,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -29616,9 +29609,9 @@ local tbl =
 			timelineIndex = 64,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "c5ba885b-77f1-9de0-919c-c1c06686a2f1",
+			uuid = "9eaef026-c34f-6bfd-ad96-88b4f91a87ba",
 		},
 		
 		{
@@ -29635,8 +29628,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -29833,7 +29826,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "512fe12e-7996-c628-bcc1-173f5ba32ae4",
+			uuid = "42257e7b-422e-a0c2-a561-aba6fd4fc57d",
 		},
 		
 		{
@@ -30112,7 +30105,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -30128,7 +30120,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -30138,7 +30130,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -30166,9 +30158,9 @@ local tbl =
 			timelineIndex = 65,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "ec77d00e-adbe-400d-b97f-6c9590f0038c",
+			uuid = "e61813dc-0d31-4690-b71e-a9de8c9619a6",
 		},
 		
 		{
@@ -30185,8 +30177,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -30383,7 +30375,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "6f892eef-651d-4573-9ea7-a76ff8f6bb2c",
+			uuid = "a9c47653-2984-7156-b8eb-80416d6b0394",
 		},
 	},
 	[66] = 
@@ -30591,7 +30583,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -30607,7 +30598,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -30617,7 +30608,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -30645,9 +30636,9 @@ local tbl =
 			timelineIndex = 66,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "82ed506c-b2da-9c60-8c93-90214d884634",
+			uuid = "4fe8bc58-ec50-9ec0-9d27-e4c36900f03c",
 		},
 		
 		{
@@ -30664,8 +30655,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -30862,7 +30853,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "94669c98-c506-903f-a93a-b91cfca1ad50",
+			uuid = "2db2883e-6fba-1674-9146-e87d94e4965f",
 		},
 	},
 	[67] = 
@@ -31070,7 +31061,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -31086,7 +31076,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -31096,7 +31086,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -31124,9 +31114,9 @@ local tbl =
 			timelineIndex = 67,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "cd8a782f-7549-0eaa-badc-5ae7dadfd98b",
+			uuid = "1ad6b7ff-68a0-fa5a-9e94-e30a69edf903",
 		},
 		
 		{
@@ -31143,8 +31133,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -31341,7 +31331,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "9dbccb32-4586-14ad-b4f6-0b5719cff90d",
+			uuid = "31fa69a1-78f5-d9eb-9c94-d44788eaac7c",
 		},
 	},
 	[68] = 
@@ -31549,7 +31539,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -31565,7 +31554,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -31575,7 +31564,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -31603,9 +31592,9 @@ local tbl =
 			timelineIndex = 68,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "7e64d238-f3dc-1e5a-861c-bcdf1af6f359",
+			uuid = "81916a9a-4b4e-4fab-9d12-9aea5a0f3051",
 		},
 		
 		{
@@ -31622,8 +31611,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -31820,7 +31809,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "896c4f9b-ef86-9ab9-b5ab-13da9a5d0700",
+			uuid = "79b28550-cc31-bb87-b76c-2e0962f62cb5",
 		},
 	},
 	[69] = 
@@ -32028,7 +32017,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -32044,7 +32032,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -32054,7 +32042,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -32082,9 +32070,9 @@ local tbl =
 			timelineIndex = 69,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "192d2b9e-34e1-7010-aff0-422da6438d72",
+			uuid = "df0268d0-658d-0ce1-beb6-5b4bed4e5b2b",
 		},
 		
 		{
@@ -32101,8 +32089,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -32299,7 +32287,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "11b97359-304f-ad7d-b032-36aad71a023e",
+			uuid = "dfd5261c-55df-7a24-84ec-8dcdcd34ca17",
 		},
 	},
 	[71] = 
@@ -32950,7 +32938,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -32966,7 +32953,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -32976,7 +32963,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -33004,9 +32991,9 @@ local tbl =
 			timelineIndex = 71,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "819e2b40-7f78-1947-be3a-58e256a47f14",
+			uuid = "f64ac2fa-5afb-00dc-af8b-f4c7c9bb6d09",
 		},
 		
 		{
@@ -33960,8 +33947,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -34158,7 +34145,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "5f2e8966-e973-aeea-ab25-a9b804880e5c",
+			uuid = "8ad35d75-30a9-ccac-84b9-5ffb7669106b",
 		},
 		
 		{
@@ -36344,7 +36331,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -36360,7 +36346,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -36370,7 +36356,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -36398,9 +36384,9 @@ local tbl =
 			timelineIndex = 78,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "4af46668-19a2-2679-9ca3-c7e207157419",
+			uuid = "0b8215d1-b32d-64fa-bef9-a1977991c741",
 		},
 	},
 	[80] = 
@@ -36788,7 +36774,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -36804,7 +36789,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -36814,7 +36799,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -36842,9 +36827,9 @@ local tbl =
 			timelineIndex = 80,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "90babe78-ae65-a0d4-a478-4fbb931cbdca",
+			uuid = "c83b39ff-fde2-ee4a-806d-f9936c2145dd",
 		},
 	},
 	[81] = 
@@ -37052,7 +37037,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -37068,7 +37052,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -37078,7 +37062,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -37106,9 +37090,9 @@ local tbl =
 			timelineIndex = 81,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "15530484-3e74-b967-9d2f-3351201ace3e",
+			uuid = "0cb264ac-893f-619d-9d7d-ef57d6172f33",
 		},
 	},
 	[84] = 
@@ -37319,7 +37303,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -37335,7 +37318,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -37345,7 +37328,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -37373,9 +37356,9 @@ local tbl =
 			timelineIndex = 86,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "36f3f940-6077-b63f-bc5b-431805ccbbf8",
+			uuid = "89e768b4-ae15-7b44-b3d9-e30d20f50cad",
 		},
 	},
 	[89] = 
@@ -37766,7 +37749,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -37782,7 +37764,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -37792,7 +37774,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -37820,9 +37802,9 @@ local tbl =
 			timelineIndex = 92,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "68d4e5ef-f309-ff6d-a626-79c14b872ffc",
+			uuid = "5396b1b1-50ed-e4b0-a6bd-d84da8225013",
 		},
 	},
 	[93] = 
@@ -38030,7 +38012,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -38046,7 +38027,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -38056,7 +38037,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -38084,9 +38065,9 @@ local tbl =
 			timelineIndex = 93,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "1da7d65c-3338-be2b-922f-2093d6334e35",
+			uuid = "9c4079bd-00d9-2e99-b37d-987fde9221b3",
 		},
 		
 		{
@@ -38103,8 +38084,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -38289,7 +38270,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "SCH - Sacred Soil",
+			name = "SCH - Sacred Soil (Special II)",
 			randomOffset = 0,
 			throttleTime = 2000,
 			time = 0,
@@ -39406,7 +39387,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -39422,7 +39402,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -39432,7 +39412,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -39460,9 +39440,9 @@ local tbl =
 			timelineIndex = 96,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "60fd37af-5251-0dd4-9ac2-a2ddfa1ffbbf",
+			uuid = "d8dae012-7f5e-bbfd-ba3b-14f2f25d97ff",
 		},
 	},
 	[99] = 
@@ -39670,7 +39650,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -39686,7 +39665,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -39696,7 +39675,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -39724,9 +39703,9 @@ local tbl =
 			timelineIndex = 99,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "3570bdfb-e57b-22e1-8458-d5c3fd24e317",
+			uuid = "70b7cc50-520c-f0cb-bee0-a91f7c723ca0",
 		},
 		
 		{
@@ -40344,7 +40323,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -40360,7 +40338,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -40370,7 +40348,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -40398,9 +40376,9 @@ local tbl =
 			timelineIndex = 101,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "2be1f36c-3e10-7338-ab1e-04051e0c5cc6",
+			uuid = "50d1c5fe-8756-16af-a190-cc35a3c04652",
 		},
 		
 		{
@@ -40417,8 +40395,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -40615,7 +40593,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "1a15a884-19a9-548e-b466-67b376571118",
+			uuid = "0874d96b-eb2e-f4f8-ae1d-d1c98e9f3798",
 		},
 		
 		{
@@ -40632,8 +40610,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 4,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -40751,7 +40729,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "301ab315-ab41-d298-928d-c62572df7217",
+			uuid = "4976d12e-7dd1-7d2d-9a81-5c4d96377873",
 		},
 		
 		{
@@ -43412,7 +43390,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -43428,7 +43405,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -43438,7 +43415,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -43466,9 +43443,9 @@ local tbl =
 			timelineIndex = 106,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "afeda05a-f486-25e0-be97-adeef954a300",
+			uuid = "025b7e52-3359-89de-83c9-aaf4b976dae3",
 		},
 		
 		{
@@ -46284,7 +46261,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -46300,7 +46276,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -46310,7 +46286,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -46338,9 +46314,9 @@ local tbl =
 			timelineIndex = 113,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "005ba8ca-caca-4db3-9808-59991705e3f9",
+			uuid = "6343fad4-475f-3fb6-87e8-5517c714e954",
 		},
 		
 		{
@@ -46357,8 +46333,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -46543,7 +46519,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "SCH - Sacred Soil",
+			name = "SCH - Sacred Soil (Special II)",
 			randomOffset = 0,
 			throttleTime = 2000,
 			time = 0,
@@ -46572,8 +46548,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 4,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -46679,7 +46655,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "WHM - Asylum",
+			name = "WHM - Asylum (Special I)",
 			randomOffset = 0,
 			throttleTime = 2000,
 			time = 0,
@@ -47259,7 +47235,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -47275,7 +47250,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -47285,7 +47260,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -47313,9 +47288,9 @@ local tbl =
 			timelineIndex = 114,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "2e4b7058-2f3d-ed70-8e8e-429ac56f5fea",
+			uuid = "a65ebfe3-f489-b207-bfee-567628661bcf",
 		},
 		
 		{
@@ -49326,7 +49301,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -49342,7 +49316,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -49352,7 +49326,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -49380,9 +49354,9 @@ local tbl =
 			timelineIndex = 120,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "160b0601-517a-2f48-b3da-2adf1179ee88",
+			uuid = "066364e1-73c6-a2ca-9dbd-f85ffb10a04e",
 		},
 		
 		{
@@ -49399,8 +49373,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 5,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -49585,7 +49559,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "SCH - Sacred Soil",
+			name = "SCH - Sacred Soil (Special II)",
 			randomOffset = 0,
 			throttleTime = 2000,
 			time = 0,
@@ -49614,8 +49588,8 @@ local tbl =
 					castPosX = 100.11000061035,
 					castPosY = 0,
 					castPosZ = 99.949996948242,
-					clusterMinPercent = false,
-					clusterMinTarget = 4,
+					clusterMinPercent = true,
+					clusterMinTarget = 75,
 					clusterRadius = 8,
 					clusterRange = 30,
 					conditions = 
@@ -49721,7 +49695,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
-			name = "WHM - Asylum",
+			name = "WHM - Asylum (Special I)",
 			randomOffset = 0,
 			throttleTime = 2000,
 			time = 0,
@@ -50301,7 +50275,6 @@ local tbl =
 					conditions = 
 					{
 						2,
-						3,
 					},
 					contentid = -1,
 					dequeueIfLuaFalse = false,
@@ -50317,7 +50290,7 @@ local tbl =
 					lastSkillID = -1,
 					localmapid = -1,
 					matchAnyBuff = false,
-					minTargetPercent = false,
+					minTargetPercent = true,
 					mpType = 1,
 					mpValue = 0,
 					name = "",
@@ -50327,7 +50300,7 @@ local tbl =
 					partyMpValue = 0,
 					partyTargetContentID = -1,
 					partyTargetName = "",
-					partyTargetNumber = 6,
+					partyTargetNumber = 100,
 					partyTargetSubType = 1,
 					partyTargetType = "All",
 					rangeCheckSourceSubType = "Nearest",
@@ -50355,9 +50328,9 @@ local tbl =
 			timelineIndex = 121,
 			timerEndOffset = -0.5,
 			timerOffset = -1,
-			timerStartOffset = -4,
+			timerStartOffset = -4.5,
 			used = false,
-			uuid = "6b4c9a3a-6c49-0df7-9a87-22a208e9a688",
+			uuid = "e138c945-fe56-574c-b2dd-60c3c3b05e04",
 		},
 		
 		{

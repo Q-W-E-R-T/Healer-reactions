@@ -5111,7 +5111,7 @@ local tbl =
 				actionCDValue = 0,
 				actionID = -1,
 				buffCheckType = 6,
-				buffDuration = 4.5,
+				buffDuration = 3.5,
 				buffID = -1,
 				buffIDList = 
 				{
@@ -5171,7 +5171,7 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Invul <= 4.5",
+				name = "Invul <= 3.5",
 				partyHpType = 1,
 				partyHpValue = 0,
 				partyMpType = 1,
@@ -10875,6 +10875,7 @@ local tbl =
 				{
 					54,
 					55,
+					13,
 				},
 				contentid = -1,
 				dequeueIfLuaFalse = false,
@@ -10955,6 +10956,7 @@ local tbl =
 				{
 					44,
 					45,
+					13,
 				},
 				contentid = -1,
 				dequeueIfLuaFalse = false,
@@ -11035,6 +11037,7 @@ local tbl =
 				{
 					48,
 					49,
+					13,
 				},
 				contentid = -1,
 				dequeueIfLuaFalse = false,
@@ -11509,7 +11512,6 @@ local tbl =
 				conditions = 
 				{
 					16,
-					12,
 					42,
 				},
 				contentid = -1,
@@ -11590,7 +11592,6 @@ local tbl =
 				conditions = 
 				{
 					17,
-					12,
 					43,
 				},
 				contentid = -1,
@@ -11829,7 +11830,6 @@ local tbl =
 				conditions = 
 				{
 					16,
-					12,
 					46,
 				},
 				contentid = -1,
@@ -11910,7 +11910,6 @@ local tbl =
 				conditions = 
 				{
 					17,
-					12,
 					47,
 				},
 				contentid = -1,
@@ -12305,7 +12304,6 @@ local tbl =
 				conditions = 
 				{
 					16,
-					12,
 					52,
 				},
 				contentid = -1,
@@ -12386,7 +12384,6 @@ local tbl =
 				conditions = 
 				{
 					17,
-					12,
 					53,
 				},
 				contentid = -1,

@@ -20,8 +20,9 @@ At first you would like to do e5n (e5s) with your Scholar. Load the `General_SCH
 # Supported ACRs
 **Job** | **Supported ACRs**
 ------------ | -------------
-AST|SallyAST/Stargazer/MCR
+AST|RikuAST/SallyAST/Stargazer/MCR
 SCH|RikuSCH/SallySCH/Educator/MCR
+WHM|RikuWHM
 
 # Supported content
 **_** | **AST** | **SCH** | **WHM**
@@ -34,4 +35,4 @@ e5s | **+** | **+** | -
 e6s | **+** | **+** | - 
 e7s | **+** | **+** | - 
 e8s | **+** | **+** | - 
-anywhere else | **+** | **+** | - 
+anywhere else | **+** | **+** | **+** 

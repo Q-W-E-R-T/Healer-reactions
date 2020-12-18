@@ -15,6 +15,270 @@ local tbl =
 		lastUse = 0,
 		luaNeedsWeaveWindow = false,
 		luaReturnsAction = false,
+		name = "-- Gui",
+		randomOffset = 0,
+		randomTimeout = 3,
+		throttleTime = 0,
+		time = 0,
+		timeRandomRange = false,
+		timeRange = false,
+		timelineIndex = 0,
+		timeout = 5,
+		timerEndOffset = 0,
+		timerOffset = 0,
+		timerStartOffset = 0,
+		used = false,
+		uuid = "a946e21b-8f02-fabd-b783-116cbf7276be",
+	},
+	
+	{
+		actions = 
+		{
+			
+			{
+				aType = 4,
+				actionID = -1,
+				actionLua = "if QwertWHMevHealGui == nil then \n    QwertWHMevHealGui = {\n        [1] = {\n            name = \"Heal\",\n            var = \"WHMevHealGui\",\n            bool = WHMevHealGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [2] = {\n            name = \"Esuna\",\n            var = \"WHMevEsunaGui\",\n            bool = WHMevEsunaGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [3] = {\n            name = \"Asylum\",\n            var = \"WHMevAsylumGui\",\n            bool = WHMevAsylumGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [4] = {\n            name = \"Dungeon\",\n            var = \"WHMevDungeonGui\",\n            bool = WHMevDungeonGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [4] = {\n            name = \"Temperance\",\n            var = \"WHMevTempGui\",\n            bool = WHMevTempGui ,\n            key = nil,\n            modifier = nil,\n        },\n    } \nend\n\nGUI:SetNextWindowSize(200,200,GUI.SetCond_FirstUseEver)\nGUI:PushStyleColor(GUI.Col_WindowBg, 0,0,0,115/255)\nGUI:Begin(\"QwertWHMevHealGui\", true, GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse + GUI.WindowFlags_NoCollapse + GUI.WindowFlags_AlwaysAutoResize)\nGUI:PopStyleColor(1)\n\nfor k,v in pairs(QwertWHMevHealGui) do\n    local r,g,b,t = (function() if v.bool == true then return 46/255,125/255,50/255,191/255 else return 41/255,0/255,0/255,191/255 end end)()\n\t\t\t\tlocal butx,buty = 103,30\n    GUI:PushStyleVar(GUI.StyleVar_ChildWindowRounding,5)\n    GUI:PushStyleColor(GUI.Col_ChildWindowBg, r, g, b, t)\n    GUI:BeginChild(\"##HealGuibutton\"..tostring(k), butx, buty, false, GUI.WindowFlags_NoSavedSettings + GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse)\n    local x,y = GUI:CalcTextSize(v.name)\n    GUI:SetCursorPos(butx/2-x/2,buty/2-y/2)\n    GUI:Text(v.name)\n    GUI:PopStyleColor()\n    GUI:PopStyleVar()\n    GUI:EndChild()\n    if v.bool == nil then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if GUI:IsItemClicked(0) then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if v.key ~= nil and v.modifier ~= nil and GUI:IsKeyPressed(v.key) == true and GUI:IsKeyDown(v.modifier) == true then\n        v.bool = not v.bool\n    end\n    if v.key ~= nil and v.modifier == nil and GUI:IsKeyPressed(v.key) == true then\n        v.bool = not v.bool\n    end\nend\n\nGUI:End()\nself.used = true\nreaction.eventConditionMismatch = true",
+				allowInterrupt = false,
+				atomicPriority = false,
+				castAtMouse = false,
+				castPosX = 0,
+				castPosY = 0,
+				castPosZ = 0,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterRadius = 8,
+				clusterRange = 30,
+				conditions = 
+				{
+					1,
+					2,
+				},
+				endIfUsed = false,
+				gVar = "",
+				gVarValue = 1,
+				ignoreWeaveRules = false,
+				isAreaTarget = false,
+				luaNeedsWeaveWindow = false,
+				luaReturnsAction = false,
+				name = "",
+				potType = 1,
+				setTarget = false,
+				showPositionPreview = false,
+				stopCasting = false,
+				stopMoving = false,
+				targetContentID = -1,
+				targetName = "",
+				targetSubType = "Nearest",
+				targetType = "Self",
+				untarget = false,
+				useForWeaving = false,
+				usePot = false,
+				used = false,
+				variableIsHover = false,
+				variableTogglesType = 1,
+			},
+		},
+		conditions = 
+		{
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 1,
+				buffDuration = 0,
+				buffID = -1,
+				buffIDList = 
+				{
+				},
+				category = 4,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 1,
+				conditionLua = "-- WHM\nreturn Player.Job == 24",
+				conditionType = 1,
+				conditions = 
+				{
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Self",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = -1,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "WHM check",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = 1,
+				partyTargetType = "All",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+				targetName = "",
+			},
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 1,
+				buffDuration = 0,
+				buffID = -1,
+				buffIDList = 
+				{
+				},
+				category = 4,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 1,
+				conditionLua = "return gACRSelectedProfiles[Player.job] == \"RikuWHM\"",
+				conditionType = 1,
+				conditions = 
+				{
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Self",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = -1,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "Riku WHM",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = 1,
+				partyTargetType = "All",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+				targetName = "",
+			},
+		},
+		enabled = true,
+		eventType = 13,
+		execute = "",
+		executeType = 1,
+		lastUse = 0,
+		luaNeedsWeaveWindow = false,
+		luaReturnsAction = false,
+		name = "Heal Gui",
+		randomOffset = 0,
+		randomTimeout = 3,
+		throttleTime = 0,
+		time = 0,
+		timeRandomRange = false,
+		timeRange = false,
+		timelineIndex = 0,
+		timeout = 5,
+		timerEndOffset = 0,
+		timerOffset = 0,
+		timerStartOffset = 0,
+		used = false,
+		uuid = "60281125-9fe4-2bab-ac71-d47ef08b3015",
+	},
+	
+	{
+		actions = 
+		{
+		},
+		conditions = 
+		{
+		},
+		enabled = false,
+		eventType = 1,
+		execute = "",
+		executeType = 1,
+		lastUse = 0,
+		luaNeedsWeaveWindow = false,
+		luaReturnsAction = false,
 		name = "-- Checks",
 		randomOffset = 0,
 		randomTimeout = 3,
@@ -28,7 +292,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "b69b0af7-35a3-a2ae-9a86-2aedb48ba21c",
+		uuid = "a1b84a3e-6836-f2f4-a797-98158070e47d",
 	},
 	
 	{
@@ -150,7 +414,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or (Kitanois_USP_Dungeons ~= nil and Kitanois_USP_Dungeons.Enable == true)",
+				conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or (Kitanois_USP_Dungeons ~= nil and Kitanois_USP_Dungeons.Enable == true) or (Kitanois_treasure_hunt ~= nil and Kitanois_treasure_hunt.Enable == true)",
 				conditionType = 1,
 				conditions = 
 				{
@@ -466,7 +730,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "return FFXIV_Common_BotRunning == false and (HusbandoMaxAddonStatus == nil or (HusbandoMaxAddonStatus.Assist.Enabled == false and HusbandoMaxAddonStatus.DeepDungeon.Enabled == false and HusbandoMaxAddonStatus.DungeonMaster.Enabled == false and HusbandoMaxAddonStatus.EurekaAnemos.Enabled == false and HusbandoMaxAddonStatus.EurekaHydatos.Enabled == false and HusbandoMaxAddonStatus.EurekaPagos.Enabled == false and HusbandoMaxAddonStatus.EurekaPyros.Enabled == false and HusbandoMaxAddonStatus.Events.Enabled == false and HusbandoMaxAddonStatus.HuntTracker.Enabled == false and HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == false and HusbandoMaxAddonStatus.TreasureMap.Enabled == false)) and (Kitanois_USP_Dungeons == nil or Kitanois_USP_Dungeons.Enable == false)",
+				conditionLua = "return FFXIV_Common_BotRunning == false and (HusbandoMaxAddonStatus == nil or (HusbandoMaxAddonStatus.Assist.Enabled == false and HusbandoMaxAddonStatus.DeepDungeon.Enabled == false and HusbandoMaxAddonStatus.DungeonMaster.Enabled == false and HusbandoMaxAddonStatus.EurekaAnemos.Enabled == false and HusbandoMaxAddonStatus.EurekaHydatos.Enabled == false and HusbandoMaxAddonStatus.EurekaPagos.Enabled == false and HusbandoMaxAddonStatus.EurekaPyros.Enabled == false and HusbandoMaxAddonStatus.Events.Enabled == false and HusbandoMaxAddonStatus.HuntTracker.Enabled == false and HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == false and HusbandoMaxAddonStatus.TreasureMap.Enabled == false)) and (Kitanois_USP_Dungeons == nil or Kitanois_USP_Dungeons.Enable == false) and (Kitanois_treasure_hunt == nil or Kitanois_treasure_hunt.Enable == false)",
 				conditionType = 1,
 				conditions = 
 				{
@@ -862,7 +1126,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "431d91f6-107d-5152-bb14-25d3c9f5fcca",
+		uuid = "a30a249b-faf6-f632-8572-ef45cf42a087",
 	},
 	
 	{
@@ -1175,7 +1439,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "3cf9e857-4bac-2562-85a4-463ddbf23f62",
+		uuid = "5df66ce0-1637-ea5e-b865-c06eb0f7aa61",
 	},
 	
 	{
@@ -1611,7 +1875,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "874947c9-2cb6-35ba-9c8a-2648d2c75cc6",
+		uuid = "6768083c-1ff0-999c-beb6-204e336771b7",
 	},
 	
 	{
@@ -2045,7 +2309,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "179b6ce5-12a3-70e0-b55e-c7fa971efd41",
+		uuid = "f811262a-050e-15ce-b880-4a207c619c4f",
 	},
 	
 	{
@@ -2075,7 +2339,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "0f9e9cf1-90be-2b55-80f8-b3e603a2124b",
+		uuid = "fa961e84-8d10-8900-8602-8f998ea8ea8c",
 	},
 	
 	{
@@ -2307,7 +2571,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "6144b21b-f342-2f26-9f93-28a82ba172d4",
+		uuid = "05712fbd-18dc-5adc-8b20-4eae2cb23310",
 	},
 	
 	{
@@ -2337,7 +2601,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "4c23313d-c83f-c059-80be-9a76f47c19c7",
+		uuid = "42400267-9cca-e33a-87d4-58bda92ba847",
 	},
 	
 	{
@@ -2651,7 +2915,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "ce91e1fb-7c77-159d-b109-567261b5caca",
+		uuid = "ad3667c1-bb7a-f97b-9de9-7da2fb547189",
 	},
 	
 	{
@@ -2885,7 +3149,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "14a840c3-a97f-6c8e-9e86-0d679373af2d",
+		uuid = "afba2843-db3c-496f-a102-91a6c6a101cd",
 	},
 	
 	{
@@ -3119,7 +3383,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "586345ee-d7bc-bb51-909b-e9ec9aee892c",
+		uuid = "74c855e6-d148-da23-b5d4-d16f6f3bd185",
 	},
 	
 	{
@@ -3149,7 +3413,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "b5537b60-ae39-9d38-91c0-c96185af9fcc",
+		uuid = "f7a03afc-73ea-c94e-bde9-95fdce4f9480",
 	},
 	
 	{
@@ -4672,7 +4936,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "9328c4f6-a301-04fb-a8e0-e1229064bdbc",
+		uuid = "94361845-f711-5dc5-9d92-2ccf87d034d8",
 	},
 	
 	{
@@ -4702,7 +4966,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "28d5ca3a-aba2-a922-9b27-10f4d84c4887",
+		uuid = "88657bfd-33e1-e60b-8b51-3cafe3c5a626",
 	},
 	
 	{
@@ -13126,7 +13390,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "c9c0ac7e-38dd-7b5a-bf05-b6a886ba0981",
+		uuid = "90f917ae-df34-2bdd-8c5e-85f5d808167d",
 	},
 	
 	{
@@ -13919,7 +14183,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "bb6400ff-1c96-30ae-a61b-bed8f35263db",
+		uuid = "4aa6c73c-23c6-dd74-85c6-f153ff59d73e",
 	},
 	
 	{
@@ -15442,7 +15706,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "6fa9f386-0732-f213-b17f-77a9560b6b4e",
+		uuid = "a3016109-166a-c469-bdba-9fda705d6717",
 	},
 	
 	{
@@ -16400,7 +16664,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "f7624098-c819-32a1-b768-2a150e57dfde",
+		uuid = "8aa641f4-12a6-01bf-ba1f-a9f734ab6b60",
 	},
 	
 	{
@@ -16430,7 +16694,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "35af36d5-d649-7677-b166-f75c041f709e",
+		uuid = "5ff48e38-7f05-efd5-a5d0-7292d4a1a2b1",
 	},
 	
 	{
@@ -18489,7 +18753,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "9dc5f578-57a7-f545-a45b-aaaa41f9862a",
+		uuid = "2031c44b-17f6-a099-b4aa-a3018bd1021c",
 	},
 	
 	{
@@ -19257,7 +19521,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "f5cf0ea9-6478-2cd0-8749-86587078283b",
+		uuid = "ceb48c42-76dd-ee22-9041-d0062270baf0",
 	},
 	
 	{
@@ -19287,7 +19551,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "f9909868-d81d-6458-853e-31c612ae67c6",
+		uuid = "8a8c838d-d4e3-4d36-834c-e3b125aaf239",
 	},
 }
 

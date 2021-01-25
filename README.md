@@ -25,7 +25,7 @@ SCH|RikuSCH/SallySCH/Educator/MCR
 WHM|RikuWHM
 
 # Supported content
-**_** | **AST** | **SCH** | **WHM**
+**Content** | **AST** | **SCH** | **WHM**
 ------------ | ------------- | ------------- | -------------
 e1s | - | - | - 
 e2s | - | - | - 

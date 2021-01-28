@@ -37,6 +37,11 @@ e7s | **+** | **+** | **+**
 e8s | **+** | **+** | **+** 
 e9s | **+** | **+** | **+** 
 e10s | **+** | **+** | **+** 
-e11s | - | - | - 
-e12s | - | - | - 
+e11s | **+** | **+** | **+** 
+e12s | **+** | **+** | **+** 
 anywhere else | **+** | **+** | **+** 
+
+
+# Donations
+If you would like to support me, you can do so on Patreon:
+**https://www.patreon.com/user?u=48606911**
